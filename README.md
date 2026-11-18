@@ -2,7 +2,8 @@
 
 Encodes a molecule as 32 hyperdimensional components with no training at all, mapping atom and bond attributes onto quasi-orthogonal random vectors and combining them by circular convolution through iterative message passing over the molecular graph. Teufel, Torresi and colleagues show that distances in this space track graph edit distance far more closely than Morgan fingerprints of equal width, improving property prediction and Bayesian optimisation at low dimensions. A fixed random seed keeps the encoding reproducible.
 
-This model was incorporated on 2026-05-20.Last packaged on 2026-05-20.
+This model was incorporated on 2026-05-20.
+Last packaged on 2026-05-20.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 32 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos817d](https://hub.docker.com/r/ersiliaos/eos817d)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos817d.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos817d.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos817d_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos817d_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
